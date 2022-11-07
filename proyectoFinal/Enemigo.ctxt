@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Enemigo
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Enemigo\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=mover
+comment1.target=void\ movimiento(int)
+comment2.params=world
+comment2.target=void\ addedToWorld(greenfoot.World)
+comment3.params=x\ y
+comment3.target=void\ setLocation(int,\ int)
+comment4.params=resta
+comment4.target=void\ dano(int)
+numComments=5

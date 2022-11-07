@@ -1,0 +1,29 @@
+import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+
+/**
+ * Write a description of class cuboverde here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+public class cubo extends objetos
+{
+    /**
+     * Act - do whatever the cuboverde wants to do. This method is called whenever
+     * the 'Act' or 'Run' button gets pressed in the environment.
+     */
+    GreenfootImage roca = new  GreenfootImage("roca.png");
+
+    public void act() 
+    {   if(getX()!=0){
+
+            setLocation(getX()-1, getY());
+            roca.rotate(1);  
+
+        }
+        else{
+            getWorld().removeObject(this);
+
+        }
+    }    
+}
